@@ -5,7 +5,7 @@ public class User {
         TeamLead tl = new TeamLead();
         // Employee methods
         tl.login();
-        tl.lunchTimeing();
+        tl.lunchTiming();
         tl.workHours();
 
         // Tester methods

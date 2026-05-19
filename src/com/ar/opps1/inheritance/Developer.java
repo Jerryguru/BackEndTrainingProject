@@ -1,6 +1,6 @@
 package com.ar.opps1.inheritance;
 
-import com.ar.oops.inheritance.hierarchicalEx2.Companyy;
+//import com.ar.oops.inheritance.hierarchicalEx2.Companyy;
 
 public class Developer extends Employee {
     public void checkCode() {
