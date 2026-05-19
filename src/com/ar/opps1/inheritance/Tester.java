@@ -1,6 +1,6 @@
-package com.ar.opps.inheritance;
+package com.ar.opps1.inheritance;
 
-public class Tester  extends Employee{
+public class Tester  extends Developer{
     public void testApplication() {
         System.out.println("Tester tests the application");
     }

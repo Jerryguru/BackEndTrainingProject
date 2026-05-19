@@ -1,4 +1,4 @@
-package com.ar.opps.inheritance;
+package com.ar.opps1.inheritance;
 
 public class Employee {
     public void login() {

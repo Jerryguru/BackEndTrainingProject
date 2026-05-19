@@ -1,4 +1,4 @@
-package com.ar.opps.inheritance;
+package com.ar.opps1.inheritance;
 
 public class User {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class User {
         tl.testReturnsCodetoDeveloper();
 
         // Developer methods
-        tl.CheckCode();
+        tl.checkCode();
         tl.writeCode();
 
         // TeamLead methods
