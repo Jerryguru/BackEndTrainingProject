@@ -40,15 +40,18 @@ this.productName=productName;
     public void setPrice(double price) {
         this.price = price;
     }
+
+
+    //
     public void oderProduct( String productName){
-        System.out.println("the product name is:" +productName);
+        System.out.println("the first  product name is:" +productName);
     }
     public void  oderProduct(String productName,int quantity ){
-        System.out.println("the product name is: " +productName);
-        System.out.println("the quantity of the product is: "+quantity);
+        System.out.println("the second  product name is: " +productName);
+        System.out.println("the quantity of the products is: "+quantity);
     }
     public void  oderProduct(String productName,int quantity ,double price){
-        System.out.println("The product name is: " +productName);
+        System.out.println("The  third product name is: " +productName);
         System.out.println("The quantity of the product is: "+quantity);
         System.out.println("The price of the quantity is: "+price);
     }

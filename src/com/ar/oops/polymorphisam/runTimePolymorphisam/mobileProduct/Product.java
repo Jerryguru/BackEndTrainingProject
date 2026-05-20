@@ -34,15 +34,17 @@ private String productName;
     public void setProductQuantity(int productQuantity) {
         this.productQuantity = productQuantity;
     }
+
+
     void displayProductDetails(){
         System.out.println("The Productname should be: "+productName);
-        System.out.println("the Product Price should be: "+productPrice);
-        System.out.println("The product Quanioty should be: "+productQuantity);
+        System.out.println("The Product Price should be: "+productPrice);
+        System.out.println("The product Quantity should be: "+productQuantity);
 
     }
     void calculateTotalPrice(){
         double total = productPrice*productQuantity;
-        System.out.println("The Total Price: "+total);
+        System.out.println("The Total Price: " +total);
     }
 
 

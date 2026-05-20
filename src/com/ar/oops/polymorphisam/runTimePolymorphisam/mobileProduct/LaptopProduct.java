@@ -7,7 +7,9 @@ public class LaptopProduct extends Product{
         /*
         * here i have a dought on hear here in constructor we called paren class variables
         *  but not called child class Mobile product variabls are called why?
-        *
+        * the answer is ikada manam only parent class ni matukey pilusthunam kanuka
+        * ikada manam laptopproiduct ki parent class haina mobile product ni pilavadam ledhu
+        * only calling the main parentr class so we dont want to use the mobile product variabls on here 
         *
         * */
         super(productName,productPrice,productQuantity);

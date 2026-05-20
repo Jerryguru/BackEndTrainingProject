@@ -24,6 +24,8 @@ public class MobileProduct extends Product{
     public void setRamSize(int ramSize) {
         this.ramSize = ramSize;
     }
+
+    @Override
     void displayProductDetails(){
         System.out.println("*****Mobile Details******");
         System.out.println("Mobile Product name is: "+getProductName());
@@ -32,6 +34,8 @@ public class MobileProduct extends Product{
         System.out.println("Mobile Product Brand is: "+getMobileBrand());
         System.out.println("Mobile Product RamSize is: "+getRamSize());
     }
+
+
     void mobileFeatures() {
 
         System.out.println(mobileBrand + " mobile has excellent camera quality."
