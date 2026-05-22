@@ -2,11 +2,11 @@ package com.ar.oops.polymorphisam.compileTimePolymorphisam.amazonEx;
 
 public class ProductOrder extends Customer{
    private String productName;
+
   private   int Quantity;
   private   double price;
-
-  public ProductOrder( String customerName , String customercity , String productName){
-super(customerName,customercity);
+public ProductOrder(String customerName , String customerCity , String productName, int quantity ,double price){
+ super(customerName,customerCity);
 this.productName=productName;
       /*
        * here I have a dought because in child class we extended parent class and given some variables in child class
@@ -55,6 +55,7 @@ this.productName=productName;
         System.out.println("The quantity of the product is: "+quantity);
         System.out.println("The price of the quantity is: "+price);
     }
+
     public void displayCustomerDetails(){
         System.out.println("The Customer Name is: "+getCustomerName());
         System.out.println("The Customer City Name is: "+ getCustomerCity());

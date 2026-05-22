@@ -6,7 +6,7 @@ public class Customer {
 
     public Customer(String customerName, String customerCity){
         this.customerName= customerName;
-        this.customerCity =customerCity;
+        this.customerCity = customerCity;
     }
 
 

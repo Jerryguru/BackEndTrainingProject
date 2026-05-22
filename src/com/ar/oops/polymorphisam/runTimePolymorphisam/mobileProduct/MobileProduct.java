@@ -3,11 +3,17 @@ package com.ar.oops.polymorphisam.runTimePolymorphisam.mobileProduct;
 public class MobileProduct extends Product{
  private    String mobileBrand;
    private int ramSize;
-   MobileProduct(String productName , double productPrice , int productQuantity ,String mobileBrand ,int ramSize ){
+  /* MobileProduct(String mobileBrand ,int ramSize ){
        super(productName,productPrice,productQuantity);
        this.mobileBrand= mobileBrand;
        this.ramSize= ramSize;
-   }
+   }*/
+
+    public MobileProduct(String productName, double productPrice, int productQuantity, String mobileBrand, int ramSize) {
+        super(productName, productPrice, productQuantity);
+        this.mobileBrand = mobileBrand;
+        this.ramSize = ramSize;
+    }
 
     public String getMobileBrand() {
         return mobileBrand;
