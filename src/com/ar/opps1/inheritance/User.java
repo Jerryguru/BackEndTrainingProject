@@ -1,11 +1,11 @@
-package com.ar.opps.inheritance;
+package com.ar.opps1.inheritance;
 
 public class User {
     public static void main(String[] args) {
         TeamLead tl = new TeamLead();
         // Employee methods
         tl.login();
-        tl.lunchTimeing();
+        tl.lunchTiming();
         tl.workHours();
 
         // Tester methods
@@ -13,7 +13,7 @@ public class User {
         tl.testReturnsCodetoDeveloper();
 
         // Developer methods
-        tl.CheckCode();
+        tl.checkCode();
         tl.writeCode();
 
         // TeamLead methods
