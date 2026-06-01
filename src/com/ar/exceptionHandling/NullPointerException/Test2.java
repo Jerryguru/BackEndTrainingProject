@@ -1,8 +1,8 @@
 package com.ar.exceptionHandling.NullPointerException;
 
-public class  Test1 {
+public class Test2 {
     public static void main(String[] args) {
-        String name = null;
-        System.out.println(name.length());
+        String[]names = new String[3];
+        System.out.println(names[0].length());
     }
 }
